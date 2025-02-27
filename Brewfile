@@ -56,9 +56,12 @@ cask "ngrok"
 cask "google-chrome"
 cask "firefox"
 cask "tor-browser"
+cask "brave-browser"  # Brave Browser
 
 # Miscs
-# cask "raycast"    # already installed
+cask "raycast"    # Raycast
+cask "commandx"   # Command X (clipboard manager)
+cask "hyperkey"   # Hyperkey (remaps Caps Lock to Hyper key)
 cask "roam-research"
 cask "obsidian"
 cask "slack"
@@ -72,14 +75,13 @@ cask "zoom"
 cask "pop"
 cask "around"
 cask "microsoft-teams"
-cask "stay"         # Useful in a multi-monitor setting. You can save and load window placement. 
+cask "stay"         # Useful in a multi-monitor setting. You can save and load window placement.
                     # It's vital when the monitors are slow to wake up and macOS doesn't do right thing (paid software)
 
 # Fonts
 cask "font-bebas-neue"
 cask "font-fira-code"
 cask "font-jetbrains-mono"
-
 
 # AppStore apps
 # mas "Bitwarden", id:1352778147 #already installed through AppStore

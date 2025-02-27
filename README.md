@@ -9,7 +9,7 @@ A collection of dotfiles that suits my needs. Stolen from:
 ## Steps
 
 1. `xcode-select --install`
-2. `git clone https://github.com/iacoware/dotfiles.git`
+2. `git clone https://github.com/matteo-meneguzzi/dotfiles.git`
 3. `install brew`, see https://brew.sh
 4. `./brew.sh`
 5. `./macos.sh`
