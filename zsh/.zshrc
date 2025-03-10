@@ -4,7 +4,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/iacoware/.oh-my-zsh"
+export ZSH="/Users/mmeneguzzi/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -113,17 +113,18 @@ source $ZSH/oh-my-zsh.sh
 
 export ADBLOCK=1
 
+# starship
 eval "$(starship init zsh)"
-eval "$(fnm env)"
+# direnv
 eval "$(direnv hook zsh)"
+# atuin
 eval "$(atuin init zsh --disable-up-arrow)"
-
 
 
 # switched to atuin for history
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-source /Users/iacoware/.config/broot/launcher/bash/br
+source /Users/mmeneguzzi/.config/broot/launcher/bash/br
 
 eval "$(zoxide init zsh --cmd cd)"
 
@@ -131,12 +132,17 @@ source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # bun completions
-# [ -s "/Users/iacoware/.bun/_bun" ] && source "/Users/iacoware/.bun/_bun"
+# [ -s "/Users/mmeneguzzi/.bun/_bun" ] && source "/Users/mmeneguzzi/.bun/_bun"
 
 # Bun
-# export BUN_INSTALL="/Users/iacoware/.bun"
+# export BUN_INSTALL="/Users/mmeneguzzi/.bun"
 # export PATH="$BUN_INSTALL/bin:$PATH"
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# mise
+eval "$(mise activate zsh)"
+#asdf
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"

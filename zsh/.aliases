@@ -109,6 +109,8 @@ alias gcane="git cane"
 alias gpr="git pr"
 alias gph="git push"
 alias gco="git co"
+alias ghist="git hist"
+alias gdif="git ds"
 
 # yarn
 alias y="yarn"
