@@ -1,8 +1,6 @@
 tap "homebrew/bundle"
-tap "homebrew/cask-fonts"
 tap "homebrew/services"
 
-brew "openssl@1.1"
 brew "openssl@3"
 brew "wget"
 brew "tree"
@@ -33,7 +31,8 @@ brew "zsh-autosuggestions"
 # Setup step needed for all of this. 
 # Refer to their github repo for info.
 brew "fzf"          # fuzzy find. I use it mainly for history search
-brew "fnm"          # fast node version switcher
+brew "asdf"         # tool version switcher
+brew "mise"         # another tool version switcher
 brew "git-delta"    # file diff in a terminal
 brew "difftastic"   # file diff in a terminal based on AST instead of word diffing
 brew "broot"        # visual folder navigation in a tree-like UI
@@ -60,7 +59,6 @@ cask "brave-browser"  # Brave Browser
 
 # Miscs
 cask "raycast"    # Raycast
-cask "commandx"   # Command X (clipboard manager)
 cask "hyperkey"   # Hyperkey (remaps Caps Lock to Hyper key)
 cask "roam-research"
 cask "obsidian"
@@ -82,6 +80,3 @@ cask "stay"         # Useful in a multi-monitor setting. You can save and load w
 cask "font-bebas-neue"
 cask "font-fira-code"
 cask "font-jetbrains-mono"
-
-# AppStore apps
-# mas "Bitwarden", id:1352778147 #already installed through AppStore

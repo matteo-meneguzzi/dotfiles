@@ -1,4 +1,4 @@
-Other things to install/rember that I've not (yet) automated:
+Other things to install/remember that I've not (yet) automated:
 
 -   Paragon NTFS driver to write on NTFS volumes
 -   Install the `toggl cli` that enable logging hours within Toggl (Python app)
@@ -8,6 +8,12 @@ Other things to install/rember that I've not (yet) automated:
 
 -   Set window management keybindings
 -   Set clipboard history shortcut CMD+SHIFT+V
+
+### Command X 
+-   Enables cutting and pasting files in finder
+
+### BitWarden
+-   Free credentials manager. Install from app store
 
 ### iTerm tweaks
 
