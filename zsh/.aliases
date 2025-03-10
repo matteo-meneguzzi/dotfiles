@@ -111,7 +111,7 @@ alias gph="git push"
 alias gco="git co"
 alias ghist="git hist"
 alias gdif="git ds"
-alias gb="git branches"
+alias gbr="git branches"
 
 # yarn
 alias y="yarn"
