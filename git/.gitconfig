@@ -52,8 +52,6 @@
     ca = !git add -A && git commit -avm
 
     # Commit all changes
-    amend = commit --amend
-    camend = commit --amend --no-edit
     cam = commit --amend
     came = commit --amend --no-edit
     cane = commit --amend --no-edit
@@ -80,7 +78,12 @@
     pl = pull --rebase
     pr = pull --rebase
 
+    #branch delete
+    bd = branch -D
+
+    # push
     ph = push
+    pho = push origin
 
 [apply]
     # Detect whitespace errors when applying a patch
